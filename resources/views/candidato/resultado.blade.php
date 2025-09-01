@@ -16,7 +16,7 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-purple dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-network-wired"></i> Grupo A</span>
+                            <span class="font-weight-bold"><i class="fas fa-network-wired"></i> Computação/Eletrônica</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
@@ -28,9 +28,9 @@
 
                                 <div class="card-body">
                                     <p class="text-justify  font-weight-normal">
-                                        Tendências ao <span class="text-info">grupo da tecnologia</span>: uma pessoa que ama desenvolver
-                                        e descobrir a solução dos problemas. Na UTFPR-CM, na área de tecnologia, possuímos
-                                        os cursos de <span class="text-info">Engenharia Eletrônica e Ciência da Computação.</span>
+                                        Tendências ao grupo da<span class="text-info"> <b>tecnologia</b></span>: uma pessoa que ama desenvolver
+                                        e descobrir a solução dos problemas. Na UTFPR-CM, possuímos
+                                        os cursos de <span class="text-info"><b>Engenharia Eletrônica e Ciência da Computação.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <span class="font-weight-bold"><i
-                                    class="fas fa-briefcase-medical"></i> Grupo B</span>
+                                    class="fas fa-briefcase-medical"></i> Eng Civil</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
@@ -54,9 +54,9 @@
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                    Tendências ao grupo de <span class="text-info">construção e infraestrutura</span>: uma pessoa que ama 
+                                    Tendências ao grupo de <span class="text-info"><b>construção e infraestrutura</b></span>: uma pessoa que ama 
                                     planejar projetos e construí-los. Na UTFPR-CM, na área de construção, possuímos o curso de 
-                                    <span class="text-info">Engenharia Civil.</span>
+                                    <span class="text-info"><b>Engenharia Civil.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-gavel"></i> Grupo C</span>
+                            <span class="font-weight-bold"><i class="fas fa-gavel"></i> Eng Ambiental</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
@@ -79,9 +79,9 @@
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tendências ao grupo de <span class="text-info">meio ambiente e sustentabilidade</span>: uma pessoa que ama 
-                                        criar soluções para os problemas atuais do mundo: eficiência energética, reciclagem... Na 
-                                        UTFPR-CM, possuímos o curso de <span class="text-info">Engenharia Ambiental e Sanitária.</span>
+                                        Tendências ao grupo de <span class="text-info"><b>meio ambiente e sustentabilidade</b></span>: uma pessoa que ama 
+                                        criar soluções para os problemas atuais do mundo:  desperdício de energia, reciclagem, etc. Na 
+                                        UTFPR-CM, possuímos o curso de <span class="text-info"><b>Engenharia Ambiental e Sanitária.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-newspaper"></i> Grupo D</span>
+                            <span class="font-weight-bold"><i class="fas fa-newspaper"></i> Química</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
@@ -104,9 +104,9 @@
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tendências ao grupo de <span class="text-info">ciências químicas</span>: uma pessoa que ama experimentar com 
-                                        químicos, desenvolver compostos e novas fórmulas. Na UTFPR-CM, possuímos os cursos de
-                                        <span class="text-info">Engenharia Química e Licenciatura Química.</span>
+                                        Tendências ao grupo de <span class="text-info"><b>ciências químicas</b></span>: uma pessoa que ama criar e 
+                                        transformar novos materiais, cosméticos ou até combustíveis. Na UTFPR-CM, possuímos os 
+                                        cursos de<span class="text-info"><b> Engenharia Química e Licenciatura Química.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-purple-white dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-film"></i> Grupo E</span>
+                            <span class="font-weight-bold"><i class="fas fa-film"></i> Alimentos</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
@@ -129,9 +129,9 @@
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tendências ao grupo de <span class="text-info">alimentos e nutrição</span>: uma pessoa que ama estudar sobre a nutrição 
-                                        dos alimentos e seus componentes. Na UTFPR-CM, possuímos os cursos de
-                                        <span class="text-info">Engenharia de Alimentos e Tecnologia de Alimentos.</span>
+                                        Tendências ao grupo de <span class="text-info"><b>alimentos</b></span>: uma pessoa que ama entender como os alimentos são feitos 
+                                        e como deixá-los mais gostosos, nutritivos e seguros para todo mundo. Na UTFPR-CM, possuímos os cursos de
+                                        <span class="text-info"><b>Engenharia de Alimentos e Tecnologia de Alimentos.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -150,9 +150,12 @@
                     <div class="col-sm-6">
                         <span class="title-resultado-sobre">Resultado Final</span>
                         <p class="text-justify font-weight-normal sobre-teste-desc">
-                            É hora de descobrir as profissões para as quais você demonstra certa inclinação.
-                            Veja onde você fez mais pontos e, usando como critério a tabela abaixo, confira a sua
-                            vocação.
+                            É hora de descobrir as profissões para as quais você demonstra mais inclinação!
+                            <br>
+                            Veja a <b>tabela de pontuação abaixo</b> para saber o seu <strong>nível de interesse</strong> nas áreas de conhecimento da UTFPR - Campo Mourão. 
+                            <br>
+                            <b>Clique nos botões acima</b> para ler sobre as áreas e descobrir os cursos que fazem parte de cada uma.
+                            <br>Aquele que te deixar mais animado pode ser o caminho certo!
                         </p>
                         <hr>
                         <strong>
@@ -162,7 +165,7 @@
                 </div>
 
                 <div class="row shadow-sm p-3 border border-success">
-                    <span class="font-weight-bold">Nivel de Interesse:</span>
+                    <span class="font-weight-bold">Nível de Interesse:</span>
                     <div class="col">
                         <span class="badge badge-default">0 a 1 pontos – pequeno</span>
                     </div>
@@ -199,7 +202,7 @@
         var myChart = new Chart(ctx, {
             type: 'pie',
             data: {
-                labels: ['GRUPO A', 'GRUPO B', 'GRUPO C', 'GRUPO D', 'GRUPO E'],
+                labels: ['COMPUTAÇÃO/ELETRÔNICA', 'ENG. CIVIL', 'AMBIENTAL', 'QUÍMICA', 'ALIMENTOS'],
                 datasets: [{
                     data: [
                         [{{$resultado_cand->resultado->GPA}}],
