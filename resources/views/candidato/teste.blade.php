@@ -3,7 +3,7 @@
 @section('conteudo')
     <div class="wrapper">
         <header class="alinhar-bg-questoes">
-            <img src="{{asset("/assets/template/img/elemento-capa-2019.png")}}" alt="capa" style="width: 800px">
+            <img src="{{asset("/assets/template/img/meus/capa-final.png")}}" alt="capa" style="width: 1600px">
         </header>
 
         <div class="container">
@@ -83,6 +83,7 @@
 
 
                        --}}
+                        <!-- vivian:porque j vai até 5? devido a quantidade de grupos(a,b,c,d,e) -->
                         @for ($j = 1; $j <=5; $j++)
                             <div id="step-{{ $j }}">
                                 <div class="row">
@@ -90,8 +91,8 @@
                                     <div class="col-4 text-center"><b>Escolha</b></div>
                                     <div class="col-4 text-center"><b>Peferência B</b></div>
                                 </div>
-
-                                @for($i = 1; $i <= 12; $i++)
+                                <!-- vivian: alterado i <= 12 para i <= 6 -->
+                                @for($i = 1; $i <= 6; $i++)
                                     <div class="row content-center">
                                         <div class="col-4">
                                             <label onclick="setAlternativa('A', '{{$i}}', '{{$grupo[$j]}}')"
@@ -118,7 +119,7 @@
 
                 {{--  MODAL DE CONFIRMACAO  --}}
 
-                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
+                <!-- <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
                      aria-hidden="true" id="confirm-modal">
                     <div class="modal-dialog modal-sm">
                         <div class="modal-content">
@@ -139,7 +140,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </form>
         </div>
     </div>
@@ -160,6 +161,8 @@
             $("#smartwizard").on("showStep", function (e, anchorObject, stepNumber, stepDirection) {
                 if ($('button.sw-btn-next').hasClass('disabled')) {
                     $('.sw-btn-group-extra').show(); // show the button extra only in the last page
+                    $('button.sw-btn-next').hide();  // Oculta o botão "Next"
+
                 } else {
                     $('.sw-btn-group-extra').hide();
                 }
@@ -173,7 +176,7 @@
                 backButtonSupport: true, // Enable the back button support
                 useURLhash: true, // Enable selection of the step based on url hash
                 lang: {  // Language variables
-                    next: 'Proximo',
+                    next: 'Próximo',
                     previous: 'Anterior'
                 },
 
@@ -184,7 +187,7 @@
                     showNextButton: true, // show/hide a Next button
                     showPreviousButton: true, // show/hide a Previous button
                     toolbarExtraButtons: [
-                        $('<button type="button" id="enviar" onclick="modalConfirmacao()"></button>').text('Enviar')
+                        $('<button type="submit" id="enviar" onclick="modalConfirmacao()"></button>').text('Finalizar')
                             .addClass('btn btn-info')
                     ]
                 },
@@ -208,7 +211,7 @@
 
                 {{-- Ponto de partida do grupo A no JSON --}}
                     $j = 0;
-                for ($i = 1; $i <= 12; $i++) {
+                for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpAA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
                     $("#GpAB" + $i).append($questoes.responseJSON[$j + 1].texto_alternativa);
@@ -217,8 +220,8 @@
                 }
 
                 {{-- Ponto de partida do grupo B no JSON --}}
-                    $j = 25;
-                for ($i = 1; $i <= 12; $i++) {
+                    $j = 12;
+                for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpBA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
                     $("#GpBB" + $i).append($questoes.responseJSON[$j + 1].texto_alternativa);
@@ -227,8 +230,8 @@
                 }
 
                 {{-- Ponto de partida do grupo C no JSON --}}
-                    $j = 48;
-                for ($i = 1; $i <= 12; $i++) {
+                    $j = 24;
+                for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpCA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
                     $("#GpCB" + $i).append($questoes.responseJSON[$j + 1].texto_alternativa);
@@ -237,8 +240,8 @@
                 }
 
                 {{-- Ponto de partida do grupo D no JSON --}}
-                    $j = 72;
-                for ($i = 1; $i <= 12; $i++) {
+                    $j = 36;
+                for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpDA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
                     $("#GpDB" + $i).append($questoes.responseJSON[$j + 1].texto_alternativa);
@@ -248,8 +251,8 @@
                 }
 
                 {{-- Ponto de partida do grupo E no JSON --}}
-                    $j = 96;
-                for ($i = 1; $i <= 12; $i++) {
+                    $j = 48;
+                for ($i = 1; $i <= 6; $i++) {
 
                     $("#GpEA" + $i).append($questoes.responseJSON[$j].texto_alternativa);
                     $("#GpEB" + $i).append($questoes.responseJSON[$j + 1].texto_alternativa);
@@ -328,7 +331,7 @@
 
         // chamado quando seleciona pelo ranger
         function selecionaRanger(grupo) {
-            for (let i = 1 ; i <= 12; i++) {
+            for (let i = 1 ; i <= 6; i++) {
                 $('#rangerGp'+ grupo + i).change( function() {
                     mudaFundoAltenativa(grupo, i, $(this).val())
                 });

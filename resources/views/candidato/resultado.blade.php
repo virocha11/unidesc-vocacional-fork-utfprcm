@@ -2,7 +2,7 @@
 
 @section('conteudo')
     <header class="alinhar-bg-questoes">
-        <img src="{{asset("/assets/template/img/elemento-capa-2019.png")}}" alt="capa" style="width: 800px"
+        <img src="{{asset("/assets/template/img/meus/capa-final.png")}}" alt="capa" style="width: 1600px"
              draggable="false">
     </header>
 
@@ -16,22 +16,21 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-purple dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-network-wired"></i> Grupo A</span>
+                            <span class="font-weight-bold"><i class="fas fa-network-wired"></i> Computação/Eletrônica</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-A-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/tecnologia.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify  font-weight-normal">
-                                        Queda para o campo das <span class="text-info">ciências físicas</span>,
-                                        que abrange profissões como
-                                        <span class="text-info">engenharia, física e computação</span> por
-                                        exemplo.
+                                        Tendências ao grupo da<span class="text-info"> <b>tecnologia</b></span>: uma pessoa que ama desenvolver
+                                        e descobrir a solução dos problemas. Na UTFPR-CM, possuímos
+                                        os cursos de <span class="text-info"><b>Engenharia Eletrônica e Ciência da Computação.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -43,21 +42,21 @@
                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             <span class="font-weight-bold"><i
-                                    class="fas fa-briefcase-medical"></i> Grupo B</span>
+                                    class="fas fa-briefcase-medical"></i> Eng Civil</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-B-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/construcao-e-infraestrutura.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Mostra interesse pela área de <span class="text-info">biológicas</span>,
-                                        ou seja, cursos indicados como <span class="text-info"> medicina,
-                                        biologia, odontologia </span>e etc.
+                                    Tendências ao grupo de <span class="text-info"><b>construção e infraestrutura</b></span>: uma pessoa que ama 
+                                    planejar projetos e construí-los. Na UTFPR-CM, na área de construção, possuímos o curso de 
+                                    <span class="text-info"><b>Engenharia Civil.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -68,21 +67,21 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-gavel"></i> Grupo C</span>
+                            <span class="font-weight-bold"><i class="fas fa-gavel"></i> Eng Ambiental</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-C-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/meio-ambiente.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tem maior inclinação para a área de humanas,
-                                        <span class="text-info">como direito, psicologia,
-                                            sociologia, economia e administração</span>.
+                                        Tendências ao grupo de <span class="text-info"><b>meio ambiente e sustentabilidade</b></span>: uma pessoa que ama 
+                                        criar soluções para os problemas atuais do mundo:  desperdício de energia, reciclagem, etc. Na 
+                                        UTFPR-CM, possuímos o curso de <span class="text-info"><b>Engenharia Ambiental e Sanitária.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -93,21 +92,21 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-newspaper"></i> Grupo D</span>
+                            <span class="font-weight-bold"><i class="fas fa-newspaper"></i> Química</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-D-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/ciencias-quimicas.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Exibe maior interesse por profissões ligadas ao uso e <span class="font-italic"> domínio da língua </span>
-                                        (oral e escrita), como <span class="text-info">, relações públicas, jornalismo,
-                                            letras e etc</span>.
+                                        Tendências ao grupo de <span class="text-info"><b>ciências químicas</b></span>: uma pessoa que ama criar e 
+                                        transformar novos materiais, cosméticos ou até combustíveis. Na UTFPR-CM, possuímos os 
+                                        cursos de<span class="text-info"><b> Engenharia Química e Licenciatura Química.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -118,21 +117,21 @@
                     <div class="dropdown ml-2 mr-2">
                         <button class="btn btn-purple-white dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                            <span class="font-weight-bold"><i class="fas fa-film"></i> Grupo E</span>
+                            <span class="font-weight-bold"><i class="fas fa-film"></i> Alimentos</span>
                         </button>
                         <div class="dropdown-menu" aria-labelledby="">
                             <div class="container" style="width: 20rem;">
                                 <div class="alinhar-mid-teste">
                                     <img class="card-img-top justify-content-center" draggable="false"
-                                         src="{{asset('/assets/template/img/resultado-images/grupo-E-illustration.jpg')}}"
+                                         src="{{asset('/assets/template/img/resultado-images-meu/alimentos-e-nutricao.png')}}"
                                          alt="Card image cap" style="width: 200px">
                                 </div>
 
                                 <div class="card-body">
                                     <p class="text-justify font-weight-normal">
-                                        Tem interesse por <span class="font-italic">atividades artísticas</span>,
-                                        como<span class="text-info"> cinema, teatro, música, arquitetura e
-                                            artes plásticas</span>.
+                                        Tendências ao grupo de <span class="text-info"><b>alimentos</b></span>: uma pessoa que ama entender como os alimentos são feitos 
+                                        e como deixá-los mais gostosos, nutritivos e seguros para todo mundo. Na UTFPR-CM, possuímos os cursos de
+                                        <span class="text-info"><b>Engenharia de Alimentos e Tecnologia de Alimentos.</b></span>
                                     </p>
                                 </div>
                             </div>
@@ -151,9 +150,12 @@
                     <div class="col-sm-6">
                         <span class="title-resultado-sobre">Resultado Final</span>
                         <p class="text-justify font-weight-normal sobre-teste-desc">
-                            É hora de descobrir as profissões para as quais você demonstra certa inclinação.
-                            Veja onde você fez mais pontos e, usando como critério a tabela a acima, confira a sua
-                            vocação.
+                            É hora de descobrir as profissões para as quais você demonstra mais inclinação!
+                            <br>
+                            Veja a <b>tabela de pontuação abaixo</b> para saber o seu <strong>nível de interesse</strong> nas áreas de conhecimento da UTFPR - Campo Mourão. 
+                            <br>
+                            <b>Clique nos botões acima</b> para ler sobre as áreas e descobrir os cursos que fazem parte de cada uma.
+                            <br>Aquele que te deixar mais animado pode ser o caminho certo!
                         </p>
                         <hr>
                         <strong>
@@ -163,18 +165,18 @@
                 </div>
 
                 <div class="row shadow-sm p-3 border border-success">
-                    <span class="font-weight-bold">Nivel de Interesse:</span>
+                    <span class="font-weight-bold">Nível de Interesse:</span>
                     <div class="col">
-                        <span class="badge badge-default">0 a 3 pontos – pequeno</span>
+                        <span class="badge badge-default">0 a 1 pontos – pequeno</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-icon text-dark">4 a 6 pontos – moderado</span>
+                        <span class="badge badge-icon text-dark">2 a 3 pontos – moderado</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-primary">7 a 9 pontos – grande</span>
+                        <span class="badge badge-primary">4 a 5 pontos – grande</span>
                     </div>
                     <div class="col">
-                        <span class="badge badge-info">10 a 12 pontos – muito forte</span>
+                        <span class="badge badge-info">6 pontos – muito forte</span>
                     </div>
                 </div>
 
@@ -200,7 +202,7 @@
         var myChart = new Chart(ctx, {
             type: 'pie',
             data: {
-                labels: ['GRUPO A', 'GRUPO B', 'GRUPO C', 'GRUPO D', 'GRUPO E'],
+                labels: ['COMPUTAÇÃO/ELETRÔNICA', 'ENG. CIVIL', 'AMBIENTAL', 'QUÍMICA', 'ALIMENTOS'],
                 datasets: [{
                     data: [
                         [{{$resultado_cand->resultado->GPA}}],
